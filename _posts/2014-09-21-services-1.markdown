@@ -1,0 +1,8 @@
+---
+layout: default
+img: viz.png
+category: Services
+title: Visualización de Datos
+description: |
+---
+Tomamos tus datos y los complementamos con datos abiertos, los cuales procesamos por tí, generando insights que permiten un mayor alcance e interactividad en Internet de tu proyecto ambiental, energético o minero.

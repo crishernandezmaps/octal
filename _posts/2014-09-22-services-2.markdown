@@ -1,0 +1,8 @@
+---
+layout: default
+img: info.png
+category: Services
+title: Videos Infográficos
+description: |
+---
+Una de las mejores formas de comunicar tus servicios ambientales, impactos de algún cambio en la regulación de la industria, o las ventajas de un futuro proyecto ambiental, son los videos infográficos, que muestran de forma didáctica en no más de 90 segundos, gran cantidad de contenido. Especial para redes sociales.

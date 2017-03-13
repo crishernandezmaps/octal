@@ -1,0 +1,29 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://octalproject.cl
+title: "Octal"
+mail: hello@octalproject.cl
+author: cris hernández
+description: "Can you see the stars?"
+copyright: 'Copyright &copy; 2017 Octal. Some Rights Reserved.'
+credits: 'Creditos: Landing Page created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/octalproject
+  # - title: linkedin
+  #   url: https://www.linkedin.com/company/mapoteca

@@ -2,7 +2,7 @@
 layout: default
 img: tweets.jpg
 category: Services
-title: Modelos cartográficos
+title: C. Participants
 description: |
 ---
-Nuestro background nos permite ser expertos en la creación de modelos cartográficos de todo tipo. De especial interés para la industria ambiental y energética son los mapas interactivos en Internet. Los mapas son una herramienta poderosa de comunicación a toda audiencia. 
+Nuestro background nos permite ser expertos en la creación de modelos cartográficos de todo tipo. De especial interés para la industria ambiental y energética son los mapas interactivos en Internet. Los mapas son una herramienta poderosa de comunicación a toda audiencia.

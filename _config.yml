@@ -2,7 +2,8 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: /octal
+# url:
+# baseurl:
 title: "Octal"
 mail: hello@octalproject.cl
 author: cris hernández

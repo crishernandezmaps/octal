@@ -30,9 +30,16 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .intro-message {
-    position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    position: absolute;
+    padding-top: 10%;
+    padding-bottom: 0;
+    color: #ffffff;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
 }
 
 .intro-message>h1 {

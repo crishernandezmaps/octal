@@ -19,21 +19,12 @@ body, h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 
-.intro-header {
-    padding-top: 50px;
-    /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
-    text-align: center;
-    color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
-}
-
 .intro-message {
     position: absolute;
     padding-top: 10%;
     padding-bottom: 0;
     color: #ffffff;
+    font-size: 0.7em;
     text-align: center;
     top: 50%;
     left: 50%;
@@ -42,28 +33,14 @@ body, h1, h2, h3, h4, h5, h6 {
     transform: translate3d(-50%,-50%,0);
 }
 
-.intro-message>h1 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    font-size: 5em;
-}
-
-.intro-divider {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
 .intro-message>h3 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 @media(max-width:767px) {
     .intro-message {
+        font-size: 0.7em;
         padding-top: 25%;
-    }
-    .intro-message>h1 {
-        font-size: 1.5em;
     }
     ul.intro-social-buttons>li {
         display: block;

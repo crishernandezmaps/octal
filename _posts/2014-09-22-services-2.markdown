@@ -1,8 +1,7 @@
 ---
 layout: default
-img: info.png
+img: city.gif
 category: Services
-title: B. Tools
-description: |
+title: Tools
 ---
-Una de las mejores formas de comunicar tus servicios ambientales, impactos de algún cambio en la regulación de la industria, o las ventajas de un futuro proyecto ambiental, son los videos infográficos, que muestran de forma didáctica en no más de 90 segundos, gran cantidad de contenido. Especial para redes sociales.
+Using a photometer and our own mobile app, we invite kids to scout the city comparing a cuantitative measure and their perception about light pollution. The quest is to identify how many stars they can see during the night.

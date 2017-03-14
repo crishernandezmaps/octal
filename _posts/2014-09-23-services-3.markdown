@@ -1,8 +1,7 @@
 ---
 layout: default
-img: tweets.jpg
+img: auspiciadores.png
 category: Services
-title: C. Participants
-description: |
+title: Who support us
 ---
-Nuestro background nos permite ser expertos en la creación de modelos cartográficos de todo tipo. De especial interés para la industria ambiental y energética son los mapas interactivos en Internet. Los mapas son una herramienta poderosa de comunicación a toda audiencia.
+Octal is funded by [European Union’s Horizon 2020](http://cordis.europa.eu/project/rcn/199856_en.html) through [Stars4All](http://stars4all.eu/) initiative. Also, is supported by [Common Action Forum](http://commonactionforum.net/) foundation.

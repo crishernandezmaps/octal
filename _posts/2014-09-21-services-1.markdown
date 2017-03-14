@@ -1,8 +1,7 @@
 ---
 layout: default
-img: viz.png
+img: game.gif
 category: Services
-title: A. Experience
-description: |
+title: Experience
 ---
-Tomamos tus datos y los complementamos con datos abiertos, los cuales procesamos por tí, generando insights que permiten un mayor alcance e interactividad en Internet de tu proyecto ambiental, energético o minero.
+We want to create a game experience to scout cities around the world and collect light during the night. We will compare among those cities which is the most light polluted one.

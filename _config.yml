@@ -3,7 +3,7 @@
 # ----------------------- #
 
 # url:
-# baseurl:
+baseurl: /octal
 title: "Octal"
 mail: hello@octalproject.cl
 author: cris hernández

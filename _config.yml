@@ -5,7 +5,7 @@
 # url:
 # baseurl:
 title: "Octal"
-mail: hello@octalproject.cl
+mail: cristian.hernandez@commonactionforum.net
 author: cris hernández
 description: "Can you see the stars?"
 copyright: 'Copyright &copy; 2017 Octal. Some Rights Reserved.'
@@ -26,5 +26,3 @@ permalink: pretty
 social:
   - title: twitter
     url: https://twitter.com/octalproject
-  # - title: linkedin
-  #   url: https://www.linkedin.com/company/mapoteca

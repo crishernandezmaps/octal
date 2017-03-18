@@ -8,7 +8,7 @@ const colors = require('colors');
 
 /// INGRESAR Y EDITAR ESTA PARTE DEL CODIGO
 const options = {
-    key: 'dbb80db9843554a8f12783c9406a403456ea2df1', // TU API KEY
+    key: '', // TU API KEY
     termino_busqueda: '', // INGRESA EL TÉRMINO QUE DESEAS BUSCAR
     id_escogida: '' // INGRESA EL ID A LA BASE DE DATOS ESCOGIDA
 }

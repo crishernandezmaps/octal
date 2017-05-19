@@ -84,6 +84,16 @@ body, h1, h2, h3, h4, h5, h6 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
+#about {
+  padding: 3%;
+}
+
+.abo {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
 @media(max-width:767px) {
     .intro-message {
         font-size: 0.7em;
@@ -181,8 +191,4 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
-}
-
-#abo {
-  font-size: 1.2em;
 }

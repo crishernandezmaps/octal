@@ -85,13 +85,21 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 #about {
-  padding: 3%;
+  padding: 5%;
+}
+
+#dot {
+  /*margin-top: 5%;*/
+  width: 80px;
+  height: 80px;
 }
 
 .abo {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1.2em;
+  margin-top: 7%;
+  vertical-align: middle;
 }
 
 @media(max-width:767px) {

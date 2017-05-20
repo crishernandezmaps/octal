@@ -120,6 +120,25 @@ body, h1, h2, h3, h4, h5, h6 {
   filter: grayscale(100%);
 }
 
+.member {
+  height: 25%;
+  width: 25%;
+  padding: 1%;
+  margin-top: 3%;
+}
+
+.member-pic {
+  /*border-radius: 5px 40px 5px;*/
+  border-radius: 50%;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.member-pic:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
 @media(max-width:767px) {
     body{
       margin-left: 0;

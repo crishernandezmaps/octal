@@ -19,23 +19,13 @@
                     <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
                     {% else %}
                       {% if post.gallery == true %}
-                      <div class="col-sm-5 thumb">
-                        <img class="img-responsive" src="img/services/gallery/a.jpg" alt="">
-                      </div>
-                      <div class="col-sm-5 thumb">
-                        <img class="img-responsive" src="img/services/gallery/b.jpg" alt="">
-                      </div>
-                      <div class="col-sm-5 thumb">
-                        <img class="img-responsive" src="img/services/gallery/c.jpg" alt="">
-                      </div>
-                      <div class="col-sm-5 thumb">
-                        <img class="img-responsive" src="img/services/gallery/d.jpg" alt="">
-                      </div>
+                        {% include gallery.html %}
                       {% else %}
-                        {% include team.html %}                                                                                                                                          
+                        {% include team.html %}
                       {% endif %}
                     {% endif %}
                 </div>
+                {% include hide.html %}
             </div>
         </div>
     </div>
@@ -43,9 +33,7 @@
     {% else %}
 
     <div class="content-section-b">
-
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
                     <hr class="section-heading-spacer">

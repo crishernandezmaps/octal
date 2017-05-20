@@ -5,7 +5,7 @@
 # url:
 # baseurl:
 title: "Octal"
-mail: cristian.hernandez@commonactionforum.net
+mail: crishmill@gmail.com
 author: cris hernández
 description: "Can you see the stars?"
 copyright: 'Copyright &copy; 2017 Octal. Some Rights Reserved.'
@@ -24,5 +24,7 @@ permalink: pretty
 # ----------------------- #
 
 social:
+  - title: github
+    url: https://github.com/crishernandezmaps/octal
   - title: twitter
     url: https://twitter.com/octalproject

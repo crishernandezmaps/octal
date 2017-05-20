@@ -1,7 +1,0 @@
----
-layout: default
-img: city.gif
-category: Services
-title: Tools
----
-Using a photometer and our own mobile app, we invite kids to scout the city comparing a cuantitative measure and their perception about light pollution. The quest is to identify how many stars they can see during the night.

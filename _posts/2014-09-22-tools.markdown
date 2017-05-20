@@ -1,0 +1,7 @@
+---
+layout: default
+category: Services
+title: Tools
+img: tool.gif
+---
+We are creating a spectrometer for mobile phones, which allows us to do both qualitative and quantitative measures of light pollution. The quest is to identify how many stars they can see during the night, and how the light behave at the same time.

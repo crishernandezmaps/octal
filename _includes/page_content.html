@@ -1,12 +1,11 @@
 <section id="services">
+  <div class="clearfix"></div>
 <!-- Page Content -->
 {% for post in site.posts reversed %}
   {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
-    <div class="content-section-a">
-
+    <div class="content-section-a" id="push-down">
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
@@ -14,14 +13,31 @@
                     <h2 class="section-heading">{{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <!-- INSERTAR GALERÍA -->
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6" id="slideshow">
+                    {% if post.img != null %}
                     <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                    {% else %}
+                      {% if post.gallery == true %}
+                      <div class="col-sm-5 thumb">
+                        <img class="img-responsive" src="img/services/a.png" alt="">
+                      </div>
+                      <div class="col-sm-5 thumb">
+                        <img class="img-responsive" src="img/services/b.png" alt="">
+                      </div>
+                      <div class="col-sm-5 thumb">
+                        <img class="img-responsive" src="img/services/c.png" alt="">
+                      </div>
+                      <div class="col-sm-5 thumb">
+                        <img class="img-responsive" src="img/services/d.png" alt="">
+                      </div>
+                      {% else %}
+                      <p>INCLUIR LOS CONTACTOS!</p>
+                      {% endif %}
+                    {% endif %}
                 </div>
             </div>
-
         </div>
-        <!-- /.container -->
-
     </div>
     <!-- /.content-section-a -->
     {% else %}
@@ -31,13 +47,13 @@
         <div class="container">
 
             <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
                 </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                <div class="col-lg-5 col-sm-pull-6 col-sm-6">
                   <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
                 </div>
             </div>

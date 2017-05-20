@@ -92,6 +92,7 @@ body, h1, h2, h3, h4, h5, h6 {
   /*margin-top: 5%;*/
   width: 80px;
   height: 80px;
+  margin: 0 auto;
 }
 
 .abo {
@@ -102,7 +103,29 @@ body, h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 
+#gal {
+  padding: 0;
+}
+
+.thumb {
+  width: 50%;
+  height: 50%;
+  padding: 1%;
+  filter: none;
+  -webkit-filter: grayscale(0%);
+}
+
+.thumb:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
 @media(max-width:767px) {
+    body{
+      padding: 0;
+      overflow-x: hidden;
+    }
+
     .intro-message {
         font-size: 0.7em;
         padding-top: 25%;
@@ -118,6 +141,25 @@ body, h1, h2, h3, h4, h5, h6 {
     .intro-divider {
         width: 100%;
     }
+
+    .thumb {
+      width: 100%;
+      height: 100%;
+      padding: 1%;
+    }
+
+    #slideshow > div {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      bottom: 10px;
+    }
+
+    #push-down{
+      padding-bottom: 60%;
+    }
+
 }
 
 .network-name {

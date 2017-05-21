@@ -45,3 +45,22 @@ if (document.documentElement.clientWidth < 900) {
       .appendTo('#slideshow');
   },  3000);
 }
+
+$(document).ready(function(){
+    $("#paz").mouseover(function(){
+      $("#hide").empty();
+      $("#hide").append("Antropóloga Social (Universidad de Chile), candidata a Doctora en Sociología (London School of Economics). Paz es etnógrafa y especialista en investigación en las áreas de antropología y sociología económica, sociología cultural y estudios urbanos.");
+    });
+    $("#ruben").mouseover(function(){
+      $("#hide").empty();
+      $("#hide").append("Diseñador Industrial, Universidad de Valparaíso, 13 años de experiencia profesional y académica en áreas de diseño de ingeniería, diseño de productos, medios digitales. Egresado en Magister en Gestión Tecnológica. Interés en áreas de investigación en  tecnologías educativas, open design, innovación social, diseño industrial y fabricación digital.");
+    });
+    $("#cris").mouseover(function(){
+      $("#hide").empty();
+      $("#hide").append("Cristian Hernández is an expert in spatial analysis and natural language processing. He works as a consultant for nonprofit organizations and start-up’s in Europe and Latin America. Cristian is currently leading a citizen data science project on light pollution called “Octal”, part of the Stars4All Program (EU funded), aimed at training people in data science methods and designing experiences using data visualizations");
+    });
+    $("#touraj").mouseover(function(){
+      $("#hide").empty();
+      $("#hide").append("I am a journalist specialized in multimedia communications and with extensive experience on blogs and social media. Lately I've been focusing on Web Journalism, although I have several years of experience, working with traditional media such as newspapers, news agencies and radio and television.");
+    });
+});

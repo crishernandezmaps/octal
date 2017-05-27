@@ -34,13 +34,13 @@
         <div class="container">
             <div class="row">
               {% if post.team == true %}
-              <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6" id="push-down">
+              <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
                   <hr class="section-heading-spacer">
                   <div class="clearfix"></div>
                   <h2 class="section-heading">{{ post.title }}</h2>
                   <div class="lead">{{ post.content }}</div>
               </div>
-              <div class="col-lg-5 col-sm-pull-6 col-sm-6">
+              <div class="col-lg-5 col-sm-pull-6 col-sm-6" id="center-team">
                 {% include team.html %}
                 {% include hide.html %}
               </div>

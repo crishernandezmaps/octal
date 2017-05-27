@@ -58,10 +58,10 @@ if (document.documentElement.clientWidth < 900) {
   });
 }
 
-var paz = "Ethnographer, expert in anthropology and economic and cultural sociology research with focus on urban studies. Her research has been conducted in Europe (London) and Latin America (Santiago)."
-var ruben = "Industrial designer, focused on engineer design, product design and digital media. His research interests are technology for education, open design, social innovation and digital fabrication."
-var cris = "Geographer, expert in spatial analysis and natural language processing. Consultant for nonprofit organizations and start-up’s in Europe and Latin America. Currently leading “Octal”."
-var touraj = "Journalist, specialized in multimedia communications. Several years of experience on newspapers, news agencies, radio and television. Lately his work is focused on Web Journalism."
+var paz = "Paz is an ethnographer, expert in anthropology and economic and cultural sociology research with focus on urban studies. Her research has been conducted in Europe (London) and Latin America (Santiago)."
+var ruben = "Ruben is an industrial designer, focused on engineer design, product design and digital media. His research interests are technology for education, open design, social innovation and digital fabrication."
+var cris = "Cris is a geographer, expert in spatial analysis and natural language processing. Consultant for nonprofit organizations and start-up’s in Europe and Latin America. Currently leading “Octal”."
+var touraj = "Touraj is a journalist, specialized in multimedia communications. Several years of experience on newspapers, news agencies, radio and television. Lately his work is focused on Web Journalism."
 
 $(document).ready(function(){
     $("#paz").mouseover(function(){

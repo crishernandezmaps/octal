@@ -122,7 +122,6 @@ body, h1, h2, h3, h4, h5, h6 {
 
 #slide-team {
   display: flex;
-  /*margin: auto;*/
 }
 
 .member {
@@ -236,18 +235,18 @@ p.copyright {
         width: 100%;
     }
 
-    #active {
-      z-index:99;
-    }
-
     .pos-img {
       position: absolute;
     }
 
     .thumb {
       position: absolute;
-      width: 90%;
-      height: 90%;
+      width: 80%;
+      height: 80%;
+      border-bottom: groove 5px #f8f8f8;
+      -moz-box-shadow: 5px 5px 0px #fff;
+      -webkit-box-shadow: 5px 5px 0px #fff;
+      box-shadow: 5px 5px 0px #fff;
     }
 
     #slideshow > div {
@@ -258,24 +257,6 @@ p.copyright {
       right: 10px;
       bottom: 10px;
     }
-
-    /*#gif {
-        padding-top: 60%;
-        margin: 0 auto;
-    }
-
-    #push-down{
-      padding-top: 60%;
-    }
-
-    #push-up {
-      z-index: auto;
-    }
-
-    #logo-main {
-      height: 250px;
-      width: 302px;
-    }*/
 
     .member {
       height: 30%;

@@ -33,17 +33,29 @@ $('div.modal').on('show.bs.modal', function() {
 // My own JS ////////////////////////////////////////
 
 if (document.documentElement.clientWidth < 900) {
-	// scripts
-  $("#slideshow > div:gt(0)").hide();
 
-  setInterval(function() {
-    $('#slideshow > div:first')
-      .fadeOut(1000)
-      .next()
-      .fadeIn(1000)
-      .end()
-      .appendTo('#slideshow');
-  },  3000);
+  $(function () {
+
+      /* SET PARAMETERS */
+      var change_img_time     = 3000;
+      var transition_speed    = 100;
+      var simple_slideshow    = $("#slideshow"),
+          listItems           = simple_slideshow.children('div'),
+          listLen             = listItems.length,
+          i                   = 0,
+
+          changeList = function () {
+              listItems.eq(i).fadeOut(transition_speed, function () {
+                  i += 1;
+                  if (i === listLen) {
+                      i = 0;
+                  }
+                  listItems.eq(i).fadeIn(transition_speed);
+              });
+          };
+      listItems.not(':first').hide();
+      setInterval(changeList, change_img_time);
+  });
 }
 
 var paz = "Ethnographer, expert in anthropology and economic and cultural sociology research with focus on urban studies. Her research has been conducted in Europe (London) and Latin America (Santiago)."

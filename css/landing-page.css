@@ -236,7 +236,16 @@ p.copyright {
         width: 100%;
     }
 
+    #active {
+      z-index:99;
+    }
+
+    .pos-img {
+      position: absolute;
+    }
+
     .thumb {
+      position: absolute;
       width: 90%;
       height: 90%;
     }

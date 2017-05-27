@@ -64,6 +64,7 @@ var cris = "Cris is a geographer, expert in spatial analysis and natural languag
 var touraj = "Touraj is a journalist, specialized in multimedia communications. Several years of experience on newspapers, news agencies, radio and television. Lately his work is focused on Web Journalism."
 
 $(document).ready(function(){
+    $("#hide").append(paz);
     $("#paz").mouseover(function(){
       $("#hide").empty();
       $("#hide").append(paz);

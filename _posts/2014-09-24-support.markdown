@@ -4,4 +4,4 @@ img: supporters.png
 category: Services
 title: Who support us
 ---
-Octal is funded by [European Union’s Horizon 2020](http://cordis.europa.eu/project/rcn/199856_en.html) through [Stars4All](http://stars4all.eu/) initiative. Also, is supported by [Common Action Forum](http://commonactionforum.net/) foundation.
+Octal is funded by [European Union’s Horizon 2020](http://cordis.europa.eu/project/rcn/199856_en.html) through [Stars4All](http://stars4all.eu/) initiative. Also, is supported by [Common Action Forum](http://commonactionforum.net/) foundation and [Asociación de Consumidores Responsables](http://www.adccircular.org/).

@@ -62,6 +62,10 @@ var paz = "Paz is an ethnographer, expert in anthropology and economic and cultu
 var ruben = "Ruben is an industrial designer, focused on engineer design, product design and digital media. His research interests are technology for education, open design, social innovation and digital fabrication."
 var cris = "Cris is a geographer, expert in spatial analysis and natural language processing. Consultant for nonprofit organizations and start-up’s in Europe and Latin America. Currently leading “Octal”."
 var touraj = "Touraj is a journalist, specialized in multimedia communications. Several years of experience on newspapers, news agencies, radio and television. Lately his work is focused on Web Journalism."
+var victor = "Victor is a geographer with experience in urban planning and local government. He's research focused on the relationship within urban areas and wellness, working on interdisciplinary groups."
+var pedro = "Industrial Designer and researcher with focus in Lighting Technologies. Pedro is an expert in environment and light efficiency (MAVILE), also Phd candidate from Universidad Nacional de Tucumán, Argentina."
+var paulina = "Paulina is an Architech granted with several light design awards. She is leading \"Noche Zero\" project. Also she is part of Dark Sky Association(US) and the International Advisory Council, IAC; Chinese Lighting Design Association, CLDA"
+var maricel = "Maricel is an Engineer expert in construction productivity. Their research focused on digital printing and circular economy. She is also part of the fundation \"Association Consumidores Responsables\" in Chile."
 
 $(document).ready(function(){
     $("#hide").append(paz);
@@ -80,5 +84,21 @@ $(document).ready(function(){
     $("#touraj").mouseover(function(){
       $("#hide").empty();
       $("#hide").append(touraj);
+    });
+    $("#victor").mouseover(function(){
+      $("#hide").empty();
+      $("#hide").append(victor);
+    });
+    $("#pedro").mouseover(function(){
+      $("#hide").empty();
+      $("#hide").append(pedro);
+    });
+    $("#paulina").mouseover(function(){
+      $("#hide").empty();
+      $("#hide").append(paulina);
+    });
+    $("#maricel").mouseover(function(){
+      $("#hide").empty();
+      $("#hide").append(maricel);
     });
 });

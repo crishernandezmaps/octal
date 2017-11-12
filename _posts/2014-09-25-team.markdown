@@ -1,9 +1,9 @@
 ---
 layout: default
 category: Services
-title: Team
+title: Team and Collaborators
 img:
 gallery:
 team: true
 ---
-Our team is composed by a group of volunteers experts in different fields.
+Our team and collaborators is composed by a group of volunteers experts in different fields.

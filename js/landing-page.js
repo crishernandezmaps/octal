@@ -58,14 +58,14 @@ if (document.documentElement.clientWidth < 900) {
   });
 }
 
-var paz = "Paz is an ethnographer, expert in anthropology and economic and cultural sociology research with focus on urban studies. Her research has been conducted in Europe (London) and Latin America (Santiago)."
-var ruben = "Ruben is an industrial designer, focused on engineer design, product design and digital media. His research interests are technology for education, open design, social innovation and digital fabrication."
-var cris = "Cris is a geographer, expert in spatial analysis and natural language processing. Consultant for nonprofit organizations and start-up’s in Europe and Latin America. Currently leading “Octal”."
-var touraj = "Touraj is a journalist, specialized in multimedia communications. Several years of experience on newspapers, news agencies, radio and television. Lately his work is focused on Web Journalism."
-var victor = "Victor is a geographer with experience in urban planning and local government. He's research focused on the relationship within urban areas and wellness, working on interdisciplinary groups."
-var pedro = "Industrial Designer and researcher with focus in Lighting Technologies. Pedro is an expert in environment and light efficiency (MAVILE), also Phd candidate from Universidad Nacional de Tucumán, Argentina."
+var paz = "Paz is an ethnographer, with experience on the study of cultural economies and urban space. She is interested in participative action research. Her work has been conducted in London and Santiago, Chile."
+var ruben = "Ruben is an industrial designer, with experience in engineer design, product design and digital media. His research interests are technology for education, open design, social innovation and digital fabrication."
+var cris = "Cris is an expert in spatial data analysis and data visualization. Consultant for nonprofit organizations and start-up’s in Europe and Latin America. Currently leading “Octal”."
+var touraj = "Touraj is a journalist specialized in multimedia communications. He has several years of experience working on newspapers, news agencies, radio and television. His work is now focussed on Web Journalism."
+var victor = "Victor is a geographer with experience in urban planning and local government. His research is focused on the relationship between urban areas and wellness, working with interdisciplinary research groups."
+var pedro = "Pedro is an industrial designer and researcher with focus on lighting technologies. He is an expert in environment and light efficiency (MAVILE). Also, PhD Candidate from Universidad Nacional de Tucumán, Argentina."
 var paulina = "Paulina is an Architech granted with several light design awards. She is leading \"Noche Zero\" project. Also she is part of Dark Sky Association(US) and the International Advisory Council, IAC; Chinese Lighting Design Association, CLDA"
-var maricel = "Maricel is an Engineer expert in construction productivity. Their research focused on digital printing and circular economy. She is also part of the fundation \"Association Consumidores Sustentables\" in Chile."
+var maricel = "Maricel is an engineer, expert in construction productivity. Her research focusses on digital printing and circular economy. She is also part of the &quot;Asociación de Consumidores Sustentables&quot; in Chile."
 
 $(document).ready(function(){
     $("#hide").append(paz);

@@ -4,4 +4,9 @@ category: Services
 title: Tools
 img: tool.gif
 ---
-We are creating a spectrometer for mobile phones, which allows us to do both qualitative and quantitative measures of light pollution. The quest is to identify how many stars they can see during the night, and how the light behave at the same time.
+Octal develops night sky observation experiences by using an open source spectrometer. This
+device takes qualitative and quantitative measures of light pollution in situ. Originally created by
+Public Lab, this spectrometer was modified to measure light pollution using a mobile phone in
+two ways; counting starts, and measuring the light spectrum. The data collected through the
+device is then analysed in the Octal workshops to determine and compare levels of light
+pollution in different urban areas.

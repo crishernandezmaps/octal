@@ -59,7 +59,7 @@ if (document.documentElement.clientWidth < 900) {
 }
 
 var paz = "Paz is LSE sociologist and ethnographer, with experience on the study of cultural economies and urban space. She is interested in participative action research. Her work has been conducted in London and Santiago, Chile."
-// var ruben = "Ruben is an industrial designer, with experience in engineer design, product design and digital media. His research interests are technology for education, open design, social innovation and digital fabrication."
+var ruben = "Ruben is an industrial designer, with experience in engineer design, product design and digital media. His research interests are technology for education, open design, social innovation and digital fabrication."
 var cris = "Cris is an expert in spatial data analysis and data visualization. Consultant for nonprofit organizations and start-up’s in Europe and Latin America. Currently leading “Octal”."
 var touraj = "Touraj is a journalist specialized in multimedia communications. He has several years of experience working on newspapers, news agencies, radio and television. His work is now focussed on Web Journalism."
 var victor = "Victor is a geographer with experience in urban planning and local government. His research is focused on the relationship between urban areas and wellness, working with interdisciplinary research groups."
